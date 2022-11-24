@@ -1,0 +1,47 @@
+html .col-sm-1, html .col-sm-10, html .col-sm-11, html .col-sm-12, html .col-sm-2, html .col-sm-3, html .col-sm-4, html .col-sm-5, html .col-sm-6, html .col-sm-7, html .col-sm-8, html .col-sm-9, html .col-xs-1, html .col-xs-10, html .col-xs-11, html .col-xs-12, html .col-xs-2, html .col-xs-3, html .col-xs-4, html .col-xs-5, html .col-xs-6, html .col-xs-7, html .col-xs-8, html .col-xs-9, html .col-md-1, html .col-md-10, html .col-md-11, html .col-md-12, html .col-md-2, html .col-md-3, html .col-md-4, html .col-md-5, html .col-md-6, html .col-md-7, html .col-md-8, html .col-md-9 {float: right;}
+.ps>.ps__scrollbar-y-rail {margin-left: 0;margin-right: -15px;}
+.header .copyrights {right: 0;left: auto;}
+.header-photo:after {right: 7%;left: auto;}
+.form-control, .form-control:focus, .has-error .form-control, .has-error .form-control:focus, input[type="search"], input[type="password"], input[type="text"], .header-search input.form-control {text-align: right;padding: 10px 12px 10px 25px;}
+.form-group label {left: auto;right: 15px;}
+@media only screen and (min-width: 1025px) {.header {float: right;}
+	.content-area {right: auto;left: 0;}
+	ul.main-menu {left: -96px;right: auto;}
+	.lmpixels-arrows-nav {left: -80px;right: auto;}
+	ul.main-menu .link-text {left: 0;right: auto;}
+	ul.main-menu a:hover .link-text {left: 100%;right: auto;}
+	.page-title {text-align: right;}
+	.page-title:after {left: auto;right: -12px;}
+	.blog-sidebar {left: -310px;right: auto;}
+	.blog-sidebar.open {left: 0;right: auto;}
+	.sidebar-toggle {right: -48px;left: auto;border-right-width: 2px;border-left-width: 0;border-top-left-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 10px;border-bottom-right-radius: 10px;}
+	.blog-sidebar h6, .blog-sidebar .sidebar-title {text-align: right;}
+	.blog-sidebar .sidebar-title h4:after {left: auto;right: -9px;}
+	.blog-sidebar ul li {padding-right: 15px;padding-left: 0;text-align: right;}
+	.blog-sidebar ul li:before {right: 0;left: auto;}
+	.search-form input[type="search"], .search-form input[type="text"] {padding: 10px 16px 10px 50px;}
+	.search-form input[type="submit"], .search-form input[type="submit"]:hover, .search-form input[type="submit"]:focus, .search-form label:after {left: 0;right: auto;}}
+@media only screen and (max-width: 1500px) and (min-width: 1025px) {.page-wrapper {padding-left: 122px;padding-right: 30px;}}
+.project-description {margin-right: 20px;margin-left: 0;}
+.order-first .project-description {margin-right: 0;margin-left: 20px;}
+@media only screen and (max-width: 1024px) {.project-description, .order-first .project-description {margin-left: 0;margin-right: 0;}}
+.project-general-info {text-align: right;}
+.project-general-info .fa {margin-left: 5px;margin-right: 0;}
+.portfolio-page-nav {text-align: left;float: left;}
+.portfolio-page-nav .lnr-chevron-left:before {content: "";}
+.portfolio-page-nav .lnr-chevron-right:before {content: "";}
+.portfolio-page-title, .tags, .share-buttons {text-align: right;}
+.portfolio-page-content .share-buttons a.btn:first-child {margin-right: 0;}
+.portfolio-page-content .share-buttons a.btn:last-child {margin-right: 7px;margin-left: 0;}
+.site-content .entry-header {text-align: right;}
+.form-group-with-icon i {left: 13px;right: auto;}
+.comment-respond h3 {text-align: right;}
+form {text-align: right;}
+.post-content {text-align: right;}
+.entry-meta-bottom .entry-share {float: left;}
+blockquote {border-right: 2px solid #d8d8d8;border-left: 0;}
+.btn-primary, .btn-secondary, button, input[type="button"], input[type="submit"], .wp-block-button .wp-block-button__link, .elementor .btn-primary, .elementor .btn-secondary {margin-left: .25em;margin-right: 0;}
+.btn-primary:last-child, .btn-secondary:last-child, button:last-child, input[type="button"]:last-child, input[type="submit"]:last-child, .wp-block-button .wp-block-button__link:last-child {margin-right: 0;margin-left: 0;}
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {border-top-right-radius: .25em;border-bottom-right-radius: .25em;}
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {border-top-left-radius: .25em;border-bottom-left-radius: .25em;}
+.share-buttons a.btn:last-child {margin-right: 3px;}
