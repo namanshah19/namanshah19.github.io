@@ -1,1 +1,3 @@
-# namanshah
+---
+permalink: /index.html
+---
