@@ -24,8 +24,8 @@
 .elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {border-color: var(--e-global-color-text);}
 .elementor-widget-icon-list .elementor-icon-list-icon i {color: var(--e-global-color-primary);}
 .elementor-widget-icon-list .elementor-icon-list-icon svg {fill: var(--e-global-color-primary);}
-.elementor-widget-icon-list .elementor-icon-list-text {color: var(--e-global-color-secondary);}
 .elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a {font-family: var(--e-global-typography-text-font-family),Sans-serif;font-weight: var(--e-global-typography-text-font-weight);}
+.elementor-widget-icon-list .elementor-icon-list-text {color: var(--e-global-color-secondary);}
 .elementor-widget-counter .elementor-counter-number-wrapper {color: var(--e-global-color-primary);font-family: var(--e-global-typography-primary-font-family),Sans-serif;font-weight: var(--e-global-typography-primary-font-weight);}
 .elementor-widget-counter .elementor-counter-title {color: var(--e-global-color-secondary);font-family: var(--e-global-typography-secondary-font-family),Sans-serif;font-weight: var(--e-global-typography-secondary-font-weight);}
 .elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {background-color: var(--e-global-color-primary);}
