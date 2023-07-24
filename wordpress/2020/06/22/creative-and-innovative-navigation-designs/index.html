@@ -416,6 +416,81 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         }
 
         
+        @media only screen and (min-width: 1300px) {
+            .header {
+                max-width: 420px;
+            }
+            .content-area {
+                max-width: calc(100% - 420px);
+            }
+
+            .header .copyrights {
+                width: 420px;
+            }
+        }
+        @media only screen and (min-width: 1025px) {
+            .header {
+                max-height: 100%;
+            }
+            ul.main-menu {
+                background-color: #222;
+                width: 86px;
+                left: -86px;
+                right: auto;
+                top: 0;
+                bottom: 0;
+                border-radius: 0;
+            }
+            ul.main-menu a {
+                border-bottom: 1px solid #333;
+            }
+            .page-content {
+                max-width: 100%;
+                min-height: 100%;
+                margin: 0 auto;
+                border-radius: 0;
+            }
+            .page-wrapper {
+                padding-left: 86px;
+                padding-right: 0;
+            }
+            .animated-section, .single-page-content,
+            .animated-section,
+            .section-content,
+            .single-page-content,
+            .content-wrapper {
+                border-radius: 0;
+            }
+            ul.main-menu .link-text {
+                position: relative;
+                left: 0;
+                right: 0;
+                right: auto;
+                visibility: visible;
+                opacity: 1;
+                color: #eee;
+                font-size: 11px;
+                padding: 8px 0 5px;
+                background: transparent;
+                box-shadow: none;
+            }
+            ul.main-menu a:hover .link-text {
+                left: 0;
+                right: 0;
+            }
+            .lmpixels-arrows-nav {
+                background-color: #444;
+                width: 48px;
+                right: 10px;
+                bottom: 10px;
+                padding: 5px 0;
+                border: 2px solid #0ba376;
+            }
+        }
+        .home-page-first-style {
+            min-height: calc(100vh - 140px) !important;
+        }
+        
 
         /* ============================================================================= 
         8. Custom Styles
